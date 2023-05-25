@@ -8,7 +8,7 @@ import (
 
 type Config struct {
 	Key1 string `mapstructure:"key1"`
-	key2 int    `mapstructure:"key2"`
+	Key2 int    `mapstructure:"key2"`
 }
 
 var Conf Config
