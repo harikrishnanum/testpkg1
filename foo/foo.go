@@ -1,4 +1,4 @@
-package testpkg1
+package foo
 
 import (
 	"fmt"

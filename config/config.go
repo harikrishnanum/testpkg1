@@ -11,10 +11,10 @@ type Config struct {
 	Key2 int    `mapstructure:"key2"`
 }
 
-var Conf Config
+var Conf *Config
 
 func init() {
-	Conf = Config{}
+	Conf = &Config{}
 
 	//viper.AddConfigPath("pkg/config")
 	viper.AddConfigPath(".")
