@@ -18,7 +18,7 @@ func init() {
 
 	//viper.AddConfigPath("pkg/config")
 	viper.AddConfigPath(".")
-	viper.SetConfigName("config")
+	viper.SetConfigName("testpkg1_config")
 	viper.SetConfigType("json")
 
 	err := viper.ReadInConfig()
